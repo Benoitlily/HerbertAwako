@@ -1,3 +1,8 @@
+ .u-section-1 {
+  background-repeat: no-repeat;
+  background-image: url("images/DadsBG.jpg");
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 400px;
 }
@@ -6,6 +11,7 @@
   --radius: 6px;
   font-weight: 700;
   font-size: 0.9375rem;
+  background-image: none;
   margin: 60px auto 0 357px;
   padding: 8px 51px 8px 50px;
 }
@@ -14,11 +20,17 @@
   --radius: 6px;
   font-weight: 700;
   font-size: 0.9375rem;
+  background-image: none;
   margin: -37px auto 60px 577px;
   padding: 8px 33px;
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
   .u-section-1 .u-btn-1 {
     margin-left: 272px;
   }
