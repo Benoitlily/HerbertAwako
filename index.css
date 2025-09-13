@@ -6,6 +6,58 @@
   --radius: 6px;
   font-weight: 700;
   font-size: 0.9375rem;
-  margin: 168px auto 60px;
+  margin: 60px auto 0 357px;
+  padding: 8px 51px 8px 50px;
+}
+
+.u-section-1 .u-btn-2 {
+  --radius: 6px;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  margin: -37px auto 60px 577px;
   padding: 8px 33px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 272px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 462px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 186px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 20px;
+    margin-left: 328px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-btn-1 {
+    margin-left: 167px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-btn-1 {
+    margin-top: 153px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-btn-2 {
+    width: 206px;
+    margin-right: 67px;
+    margin-left: 67px;
+  }
 }
