@@ -1,4 +1,5 @@
  .u-section-1 {
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("images/DadsBG.jpg");
 }
@@ -27,7 +28,6 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    background-position: 50% 50%;
     background-size: cover;
   }
 
@@ -62,8 +62,11 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 306px;
+  }
+
   .u-section-1 .u-btn-1 {
-    margin-top: 153px;
     margin-left: auto;
   }
 
@@ -152,7 +155,7 @@
   }
 
   .u-section-2 .u-text-2 {
-    text-transform: none;
+    text-transform: uppercase;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -160,7 +163,7 @@
   }
 
   .u-section-2 .u-text-3 {
-    text-transform: none;
+    text-transform: uppercase;
   }
 }
 
@@ -193,21 +196,62 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 302px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    font-weight: 700;
+    margin-top: 14px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-top: -14px;
+    margin-bottom: 4px;
+  }
+
   .u-section-2 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 132px;
   }
 
   .u-section-2 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0;
+  }
+
+  .u-section-2 .u-icon-1 {
+    margin-top: 4px;
+    margin-left: 10px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: auto;
+    margin-top: -44px;
+    margin-left: 50px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 15px;
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 133px;
   }
 
   .u-section-2 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0 10px;
+  }
+
+  .u-section-2 .u-icon-2 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-3 {
+    width: auto;
+    margin-top: -46px;
+  }
+
+  .u-section-2 .u-btn-2 {
+    margin-top: 18px;
   }
 }
