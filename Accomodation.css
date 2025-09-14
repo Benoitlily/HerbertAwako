@@ -1,6 +1,7 @@
  .u-section-1 {
   background-repeat: no-repeat;
   background-image: url("images/DadsBG.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -46,7 +47,6 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    background-position: 50% 50%;
     background-size: cover;
   }
 
@@ -112,36 +112,47 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 387px;
+    min-height: 381px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 43px;
+    width: auto;
+    margin-top: 12px;
   }
 
   .u-section-1 .u-video-1 {
     width: 143px;
     height: 222px;
+    margin-top: 5px;
+    margin-left: 15px;
   }
 
   .u-section-1 .u-video-2 {
     width: 145px;
     height: 222px;
     margin-top: -222px;
-    margin-right: 0;
+    margin-right: 10px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 0.8125rem;
     font-weight: 700;
-    margin-right: 170px;
-    margin-left: 36px;
+    margin-top: 10px;
+    margin-right: 183px;
+    margin-left: 23px;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 0.8125rem;
     font-weight: 700;
-    margin: -21px 0 34px 195px;
+    margin-top: -21px;
+    margin-right: 7px;
+    margin-left: 188px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 16px;
+    margin-bottom: 25px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 317px;
