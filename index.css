@@ -1,5 +1,4 @@
  .u-section-1 {
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("images/DadsBG.jpg");
 }
@@ -28,6 +27,7 @@
 
 @media (max-width: 1199px) {
    .u-section-1 {
+    background-position: 50% 50%;
     background-size: cover;
   }
 
